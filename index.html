@@ -12,6 +12,40 @@
 </head>
 
 <body>
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <div class="container">
     <h1 class="display-1">Bootstrap Feels Like Cheating</h1>
     <h2 class="text-muted bg-danger">Muted Danger</h2>
@@ -50,6 +84,16 @@
         </tr>
       </tbody>
     </table>
+
+    <div class="row">
+      <p class="bg-primary col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ut sapiente, eius nihil doloribus ipsam, odit repellat quaerat dicta temporibus iste quisquam eos maiores dolorum voluptatem aut a quae animi.</p>
+      <p class="bg-warning col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, molestias soluta. Perferendis repellat iure exercitationem repellendus, optio, explicabo illo neque delectus sed excepturi omnis. Quidem corrupti placeat perferendis et dignissimos.</p>
+    </div>
+    <section class="row">
+      <p class="bg-info col-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi veritatis ratione id dicta maxime ipsam obcaecati voluptatem porro. Distinctio vitae unde perspiciatis natus dignissimos eos id sapiente architecto odio voluptates?</p>
+      <p class="bg-danger col-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis quas obcaecati facilis nesciunt earum ducimus consequuntur, officia reprehenderit, aperiam sequi labore provident fugiat eius, sit repudiandae quod laboriosam quaerat dicta.</p>
+      <p class="bg-success col-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, dicta. Obcaecati placeat, facere qui asperiores ullam nulla iure quos maiores veritatis. Dolorem, odio mollitia ut quas molestiae atque voluptatum optio!</p>
+    </section>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
